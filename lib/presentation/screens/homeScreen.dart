@@ -35,7 +35,7 @@ class Home extends StatelessWidget {
           DrawerListTitle(
             title: "Account Settings",
             icon: "user",
-            toScreen: 'test',
+            toScreen: 'account',
           ),
           DrawerListTitle(
             title: "Billing Settings",
@@ -80,7 +80,7 @@ class Home extends StatelessWidget {
                       ? (kIsWeb)
                           ? 300
                           : 350
-                      : 500,
+                      : 380,
                 )
               ],
             ),

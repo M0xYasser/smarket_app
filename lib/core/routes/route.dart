@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:smarket_app/presentation/screens/invoicesScreen.dart';
 import 'package:smarket_app/presentation/screens/testScreen.dart';
+import '../../presentation/screens/emptyInvoices.dart';
 import '../../presentation/screens/homeScreen.dart';
 import '../../presentation/screens/testScreen.dart';
 
@@ -8,9 +10,7 @@ Map<String, Widget Function(BuildContext)> route = {
   "support": (context) => TestScreen(
         text: "Support",
       ),
-  "invoice": (context) => TestScreen(
-        text: "invoice",
-      ),
+  "invoice": (context) => const invoicesScreen(),
   "account": (context) => TestScreen(
         text: "Account Settings",
       ),

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:smarket_app/data/models/invoiceDetailes.dart';
 
 import 'core/routes/route.dart';
 
 void main() {
+  print(invoices[0]);
   runApp(const SmarketApp());
 }
 

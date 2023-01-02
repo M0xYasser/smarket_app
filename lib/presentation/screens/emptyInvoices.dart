@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
+import '../../core/constants/constant.dart';
 import '../widgets/customAppBar.dart';
 
 class InvoicesEmpty extends StatelessWidget {
@@ -25,9 +26,7 @@ class InvoicesEmpty extends StatelessWidget {
           const Text(
             "Not Found any invoice",
             style: TextStyle(
-                fontFamily: "harabaraBold",
-                fontSize: 24,
-                color: const Color(0xff2C6975)),
+                fontFamily: "harabaraBold", fontSize: 24, color: myDarkGreen),
           ),
           const SizedBox(
             height: 24,
@@ -39,7 +38,7 @@ class InvoicesEmpty extends StatelessWidget {
               style: const TextStyle(
                   fontFamily: "harabaraBold",
                   fontSize: 18,
-                  color: Color(0xff888888))),
+                  color: myLightGray)),
           const SizedBox(
             height: 24,
           ),
@@ -48,7 +47,7 @@ class InvoicesEmpty extends StatelessWidget {
                 width: 100,
                 padding: const EdgeInsets.fromLTRB(16, 9, 16, 9),
                 decoration: BoxDecoration(
-                    color: const Color(0xff2C6976),
+                    color: myDarkGreen,
                     borderRadius: BorderRadius.circular(20)),
                 child: Center(
                     child: Row(

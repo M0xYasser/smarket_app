@@ -1,6 +1,7 @@
 // ignore_for_file: must_be_immutable, file_names
 
 import 'package:flutter/material.dart';
+import 'package:smarket_app/core/constants/money_value.dart';
 import '../widgets/customAppBar.dart';
 
 class TestScreen extends StatelessWidget {
@@ -18,7 +19,7 @@ class TestScreen extends StatelessWidget {
               Navigator.pushReplacementNamed(context, "home");
             },
             child: Text(
-              text,
+              MoneyValue.getMoney(),
               style: const TextStyle(
                   fontFamily: "harabaraBold",
                   fontSize: 44,

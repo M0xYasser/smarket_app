@@ -1,22 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:smarket_app/presentation/screens/invoicesScreen.dart';
-import 'package:smarket_app/presentation/screens/testScreen.dart';
-import '../../presentation/screens/emptyInvoices.dart';
-import '../../presentation/screens/homeScreen.dart';
+import 'package:smarket_app/presentation/screens/paymentscreen.dart';
+import '../../presentation/screens/reset_password.dart';
+import '../../presentation/screens/support.dart';
 import '../../presentation/screens/testScreen.dart';
+import '../../presentation/screens/homeScreen.dart';
+import '../../presentation/screens/saveMoney.dart';
 
 Map<String, Widget Function(BuildContext)> route = {
-  "home": (context) => const Home(),
-  "support": (context) => TestScreen(
-        text: "Support",
-      ),
-  "invoice": (context) => const invoicesScreen(),
-  "account": (context) => TestScreen(
-        text: "Account Settings",
-      ),
-  "billing": (context) => TestScreen(
-        text: "Billing Settings",
-      ),
+  "home": (cozntext) => const Home(),
+  "support": (context) => const Support(),
+  "invoice": (context) => invoicesScreen(),
+  "account": (context) => const SaveMoney(),
+  "billing": (context) => PaymentsScreen(),
   "about": (context) => TestScreen(
         text: "About",
       ),

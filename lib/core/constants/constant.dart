@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 const Color myDarkGray = Color.fromARGB(255, 68, 68, 68);
-const Color myLightGray = Color(0xff888888);
+const Color myLightGray = Color.fromARGB(255, 136, 136, 136);
 const Color myDarkGreen = Color.fromARGB(255, 44, 104, 118);
 const Color myLightGreen = Color.fromARGB(255, 104, 178, 159);
 

@@ -52,6 +52,7 @@ class Home extends StatelessWidget {
             icon: "logout",
             toScreen: 'signout',
             divider: true,
+            logOut: true,
           ),
           DrawerListTitle(
             title: "Support",

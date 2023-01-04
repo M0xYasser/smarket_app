@@ -12,7 +12,7 @@
 - HarabaraMaisBold
 - HarabaraMaisBlack
 
-## Screen Shots
+## ScreenShots
 
 | Home | Drawer |
 |---|---|
